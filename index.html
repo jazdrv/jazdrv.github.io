@@ -2,12 +2,47 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>gcalcli - personal calendar tool</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jazdrv — personal command-line tools</title>
+<style>
+  :root { color-scheme: light dark }
+  body { max-width: 34rem; margin: 3rem auto; padding: 0 1.25rem;
+         font: 16px/1.6 -apple-system, system-ui, sans-serif }
+  h1 { font-size: 1.5rem; margin-bottom: .25rem }
+  .sub { color: #6b7280; margin-top: 0 }
+  h2 { font-size: 1rem; margin-top: 2rem }
+  code { font-size: .9em }
+  footer { margin-top: 2.5rem; color: #6b7280; font-size: .9em }
+  a { color: #2563eb }
+</style>
 </head>
 <body>
-<h1>gcalcli</h1>
-<p>This is the home page for a personal, single-user installation of gcalcli, a command-line tool used to read and write the owner's own Google Calendar. It is not offered to the public and has no other users.</p>
-<p><a href="privacy.html">Privacy policy</a></p>
+
+<h1>jazdrv</h1>
+<p class="sub">Personal command-line tools. Single user. Not a product.</p>
+
+<p>This page exists to carry the homepage and privacy-policy URLs that Google
+requires before a personal OAuth application can be published, so that its
+access tokens do not expire every seven days.</p>
+
+<h2>What uses it</h2>
+<ul>
+  <li><strong>gcalcli</strong> — reads and writes the owner's own Google Calendar
+      from the terminal.</li>
+  <li><strong>gcontacts</strong> — a small personal script that maintains the
+      owner's own Google Contacts. It shares the same OAuth client.</li>
+</ul>
+
+<p>Neither is offered to anyone else, and neither has any other users.</p>
+
+<h2>Privacy</h2>
+<p><a href="privacy.html">Privacy policy</a> — what is accessed, where it stays,
+and how to revoke it.</p>
+
+<footer>
+  These two pages are load-bearing: if they stop resolving, Google can drop the
+  application out of production and the seven-day token expiry returns.
+</footer>
+
 </body>
 </html>
-
